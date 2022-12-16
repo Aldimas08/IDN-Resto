@@ -1,0 +1,57 @@
+/* Poppins import link*/
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+/* Font-family: Poppins */
+body {
+	font-family: "Poppins", sans-serif;
+	overflow-x: hidden;
+}
+
+.bg-blur-black {
+	background-color: rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(10px);
+}
+
+.hero {
+	height: 100vh;
+
+	/* random image unsplash */
+	background-image: url("https://source.unsplash.com/random?restaurant");
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.second {
+	min-height: 70vh;
+}
+
+.panel-content {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(3px);
+}
+
+.text-title {
+  font-size: 2rem;
+}
+
+.menu {
+	min-height: 100vh;
+	background-image: url("https://source.unsplash.com/random?food background");
+	background-size: cover;
+	background-position: center;
+}
+
+.panorama {
+	min-height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+	.hero-img img, .img-eweuh img{
+		display: none;
+	}
+	
+}
